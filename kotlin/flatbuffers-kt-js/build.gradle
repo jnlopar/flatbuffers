@@ -8,6 +8,7 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-js"
+    compile "org.jetbrains.kotlinx:kotlinx-io-js:$kotlinx_io_version"
     expectedBy project(":flatbuffers-kt-common")
     testCompile "org.jetbrains.kotlin:kotlin-test-js"
 }
